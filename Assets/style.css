@@ -1,1 +1,428 @@
+/* general styling */
+:root {
+    --yellow: #d4af37;
+    --brown:  #996515;
+    --border-color: #edc903; 
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: Helvetica, Arial, sans-serif;
+    background: var(--yellow);
+}
+
+.intro {
+    width: 100%;
+    max-width: 1000px;
+    padding: 2vw 0;
+    margin: 12vw auto 5vw;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 17.5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 3px solid;
+    border-color: var(--border-color);
+    margin: 0 auto 35px auto;
+    padding: auto;
+    width: 30%;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .5) ;
+}
+
+.resume-contact {
+    width: 100%;
+    max-width: 1000px;
+    padding: 2vw 0;
+    margin: 12vw auto 5vw;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 17.5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+/* end of general styling */
+
+/* banner styling */
+#banner {
+    background: linear-gradient(rgba(255,255,255,0.40),var(--yellow)), url(../images/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.jon-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 165px;
+    margin: auto;
+    position: fixed;
+    z-index: 999;
+}
+
+.banner-text {
+    text-align: center;
+    padding-top: 250px;
+}
+
+.banner-text h1 {
+    font-size: 7rem;
+}
+
+.banner-text p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+/* end of banner styling */
+
+/* nav bar styling */
+.navBar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5vw;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+header nav {
+    width: 100%;
+    top: 0;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 40px 25px;
+    font-size: 1.5rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: .5rem 2rem;
+    transition: .5s;
+    border-radius: 15px;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+}
+
+header nav ul li a:hover {
+    background: rgba(153, 101, 21, 0.65);
+    text-shadow: rgba(255, 255, 255,0.6);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+}
+/* end of nav bar styling */
+
+/* about me styling */
+.about-me-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.jon-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+}
+
+.jon-bio h3 {
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 1.65;
+}
+
+.browntext {
+    color: #FECB91;
+}
+
+.jon-bio p {
+    line-height: 1.75;
+    font-size: 1.15rem;
+    padding: 15px 6px;
+    color: #fff;
+}
+
+.jon-img {
+    margin: 10px 25px;
+    width: 29%;
+    height: 100%;
+    min-width: 350px;
+}
+
+.jon-selfie {
+    border-radius: 40px;
+    width: 100%;
+    height: 400px;
+}
+/* end of about me styling */
+
+/* project styling */
+.project-body {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 17.5px;
+    padding: 5vw 0;
+    margin: 9vw 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.project-items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.prim-grid-img {
+    width: 95%;
+    height: auto;
+    border-radius: 15px; 
+}
+
+.grid-img {
+    width: 325px; 
+    height: 350px;
+    border-radius: 15px;
+}
+
+.project-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.project-text {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.logo-wrapper img {
+    width: 85%;
+}
+
+.project-item a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.project-text .subtitle p {
+    transition: 1s;
+    color: transparent;
+    font-weight: 750;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.project-text:hover .subtitle p {
+    font-weight: 750;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.65);
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+/* end of portfolio styling */
+
+/* resume styling */
+#resume {
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 1.25rem;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: .5rem 2rem;
+    color: #fff;
+    font-weight: bold;
+    transition: .5;
+}
+
+.button:hover {
+    background: rgba(212, 175, 55, .75);
+    text-shadow: rgba(255, 255, 255,0.6);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.85);
+}
+
+.resume {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+.resume-info-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.resume-info {
+    margin: 20px 10px;
+    padding: 25px;
+    font-size: 1.15rem;
+    border: 6px solid var(--border-color);
+    background-color: rgba(255, 255, 255,0.6);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    border-radius: 17.5px;
+}
+
+.resume-info h3 {
+    font-style: italic;
+}
+/* end of resume styling  */
+
+/* contact me styling */
+.contact-icons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fa-envelope {
+    font-size: 5.5rem;
+    color: white;
+    padding-right: 3rem;
+}
+
+.fa-github {
+    font-size: 5.5rem;
+    color: white;
+    padding-right: 3rem;
+}
+
+.fa-square-phone {
+    font-size: 5.5rem;
+    color: white;
+}
+/* end of contact me styling */
+
+/* footer styling */
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+/* end of footer styling */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width:980px) {
+    .logo {
+        flex-direction: column;
+        position: absolute;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .logo {
+        flex-direction: column;
+        position: absolute;
+    }
+}
+
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width:575px) {
+    .banner-text h1 {
+        font-size: 3rem;
+    }
+
+    .banner-text p {
+        font-size: 1rem;
+    }
+
+    .logo {
+        flex-direction: column;
+        position: absolute;
+        width: 8rem;
+    }
+
+    .intro {
+        margin: 55vw auto 5vw;
+    }
+
+    .title {
+        width: 50%;
+    }
+
+    .jon-img {
+        min-width: 275px;
+    }
+
+    .jon-selfie {
+        height: auto;
+    }
+
+    .jon-bio {
+        text-align: center;
+        width: 100%;
+    }
+
+    .grid-img {
+        width: 85%;
+        height: auto;
+        margin-bottom: 2vw;
+    }
+
+    .project-text .subtitle a {
+        text-decoration: none;
+    }
+
+    .project-text .subtitle p {
+        color: #fff;
+        font-weight: 400;
+        font-size: 1rem;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.45);
+        width: 55%;
+        margin: 4rem;
+    }
+
+    .project-text .project-1-2 p {
+        margin-left: 19vw;
+    }
+
+    .logo-wrapper {
+        display: none;
+    }
+
+    .fa-envelope {
+        font-size: 3.25rem;
+    }
+    
+    .fa-github {
+        font-size: 3.25rem
+    }
+    
+    .fa-square-phone {
+        font-size: 3.25rem
+    }
+}
