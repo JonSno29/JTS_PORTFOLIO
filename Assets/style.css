@@ -1,8 +1,8 @@
 /* general styling */
 :root {
-    --yellow: #d4af37;
-    --brown:  #996515;
-    --border-color: #edc903; 
+    --aqua: #4cb8b8;
+    --kellygreen:  #5cd843;
+    --border-color: #840d11; 
 }
 
 * {
@@ -14,7 +14,7 @@
 body {
     font-size: 62.5%;
     font-family: Helvetica, Arial, sans-serif;
-    background: var(--yellow);
+    background: var(--kellygreen);
 }
 
 .intro {
@@ -45,15 +45,15 @@ body {
     max-width: 1000px;
     padding: 2vw 0;
     margin: 12vw auto 5vw;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(56, 54, 54, 0.5);
     border-radius: 17.5px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 20px rgba(55, 50, 50, 0.5);
 }
 /* end of general styling */
 
 /* banner styling */
 #banner {
-    background: linear-gradient(rgba(255,255,255,0.40),var(--yellow)), url(../images/banner.jpeg);
+    background: linear-gradient(rgba(255,255,255,0.40),var(--kellygreen)), url(../assets/banner.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -144,7 +144,7 @@ header nav ul li a:hover {
 }
 
 .browntext {
-    color: #FECB91;
+    color: #d56aae;
 }
 
 .jon-bio p {
@@ -377,7 +377,7 @@ footer {
         min-width: 275px;
     }
 
-    .jon-selfie {
+    .jon-img {
         height: auto;
     }
 
