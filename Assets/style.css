@@ -381,13 +381,13 @@ footer {
         height: auto;
     }
 
-    .jon-bio {
+    .jon-img {
         text-align: center;
         width: 100%;
     }
 
     .grid-img {
-        width: 85%;
+        width: 50%;
         height: auto;
         margin-bottom: 2vw;
     }
