@@ -58,8 +58,7 @@ https://jonsno29.github.io/Module-One-Challenge/
 
 🎗 CSS
  
- [mockupportfolio.webm](https://user-images.githubusercontent.com/109987633/188525299-5a09e913-dd22-4356-82c3-c7c0279aa31c.webm)
-
+ ![portfolio9](https://user-images.githubusercontent.com/109987633/188531466-a733a1fd-4212-4da8-b084-10f425bb3288.gif)
 
 
 ## CREDITS:
