@@ -1,6 +1,5 @@
 # JTS_PORTFOLIO
 
-
 ## OVERVIEW:
 
 I am a motivated Coding Bootcamp student learning skills to become successful in the real world. In this challenge, I will be applying my new HTML and CSS skills to refactor an existing web page. The refactoring will result in improved accessibility and will optimize the page for search engines. Also, these changes will not change the display of the web page; Only the underlying code.
@@ -59,13 +58,15 @@ https://jonsno29.github.io/Module-One-Challenge/
 
 🎗 CSS
  
- ![image](https://user-images.githubusercontent.com/109987633/187762065-46b2b8bf-89dd-4db7-937f-2f71e809b1db.png)
+ [mockupportfolio.webm](https://user-images.githubusercontent.com/109987633/188525299-5a09e913-dd22-4356-82c3-c7c0279aa31c.webm)
+
+
 
 ## CREDITS:
 
 Thank you for the Starter Code.
 
-https://github.com/coding-boot-camp/urban-octo-telegram.git## 
+ 
 
 # LICENSE:
 
@@ -100,3 +101,4 @@ Use the "scout rule" to help others.
  https://github.com/JonSno29/Horiseon.git
  
  I tested on three different repositories.
+
