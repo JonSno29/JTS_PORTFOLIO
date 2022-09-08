@@ -1,8 +1,8 @@
 /* general styling */
 :root {
-    --aqua: #4cb8b8;
-    --kellygreen:  #5cd843;
-    --border-color: #eff17e; 
+    --aqua: #dbe8e8;
+    --kellygreen:  #391113;
+    --border-color: #370d0d; 
 }
 
 * {
@@ -13,8 +13,9 @@
 
 body {
     font-size: 62.5%;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background: var(--kellygreen);
+    color: #e7b14f ;
 }
 
 .intro {
@@ -22,7 +23,7 @@ body {
     max-width: 1000px;
     padding: 2vw 0;
     margin: 100px auto 5vw;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(245, 228, 76, 0.5);
     border-radius: 17.5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
@@ -30,14 +31,14 @@ body {
 .title {
     text-align: center;
     font-size: 40px;
-    color: #fff;
+    color: rgb(76, 32, 24);
     font-weight: bold;
     border-bottom: 3px solid;
     border-color: var(--border-color);
     margin: 0 auto 35px auto;
     padding: auto;
     width: 30%;
-    text-shadow: 0 0 2px rgba(0, 0, 0, .5) ;
+    text-shadow: 0 0 2px rgba(245, 221, 84, 0.5) ;
 }
 
 .resume-contact {
@@ -45,7 +46,7 @@ body {
     max-width: 1000px;
     padding: 2vw 0;
     margin: 12vw auto 5vw;
-    background: rgba(56, 54, 54, 0.5);
+    background: rgba(239, 216, 71, 0.5);
     border-radius: 17.5px;
     box-shadow: 0 0 20px rgba(55, 50, 50, 0.5);
 }
@@ -53,20 +54,20 @@ body {
 
 /* banner styling */
 #banner {
-    background: linear-gradient(rgba(255,255,255,0.40),var(--kellygreen)), url(../Assets/banner.jpeg);
+    background: linear-gradient(rgba(238, 220, 82, 0.4),var(--kellygreen)), url(../Assets/banner.jpeg);
     background-size: cover;
     background-position: center;
     height: 90vh;
 }
 
-.jon-logo {
+.logo {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
 .logo {
-    width: 165px;
+    width: 175px;
     margin: auto;
     position: fixed;
     z-index: 999;
@@ -74,7 +75,7 @@ body {
 
 .banner-text {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 200px;
 }
 
 .banner-text h1 {
@@ -139,43 +140,39 @@ header nav ul li a:hover {
 
 .jon-bio h3 {
     font-size: 1.4rem;
-    color: #fff;
+    color: rgb(33, 11, 11);
     line-height: 1.65;
-}
-
-.browntext {
-    color: #d56aae;
 }
 
 .jon-bio p {
     line-height: 1.75;
     font-size: 1.15rem;
     padding: 15px 6px;
-    color: #fff;
+    color: rgb(44, 14, 14);
 }
 
 .jon-img {
     /* margin: 10px 25px; */
     margin: 10px 25px;
-    width: 29%;
+    width: 30%;
     height: 100%;
     min-width: 350px;
 }
 
-.jon-selfie {
-    border-radius: 40px;
-    width: 100%;
+.jon-🤳  {
+    border-radius: 150px;
+    width: 30%;
     height: 100px;
 }
 /* end of about me styling */
 
 /* project styling */
 .project-body {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(202, 200, 57, 0.5);
     border-radius: 17.5px;
     padding: 5vw 0;
     margin: 9vw 0;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 20px rgba(237, 237, 76, 0.7);
 }
 
 .project-items-wrapper {
@@ -194,7 +191,7 @@ header nav ul li a:hover {
 }
 
 .prim-grid-img {
-    width: 95%;
+    width: 54%;
     height: auto;
     border-radius: 15px; 
 }
@@ -246,7 +243,7 @@ header nav ul li a:hover {
 .project-text:hover .subtitle p {
     font-weight: 750;
     color: #fff;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(67, 23, 23, 0.65);
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 20px;
@@ -261,10 +258,10 @@ header nav ul li a:hover {
 .button {
     text-decoration: none;
     font-size: 1.25rem;
-    border: 1px solid white;
+    border: 1px solid rgb(36, 13, 13);
     border-radius: 15px;
     padding: .5rem 2rem;
-    color: #fff;
+    color: rgb(52, 15, 17);
     font-weight: bold;
     transition: .5;
 }
@@ -292,8 +289,8 @@ header nav ul li a:hover {
     padding: 25px;
     font-size: 1.15rem;
     border: 6px solid var(--border-color);
-    background-color: rgba(255, 255, 255,0.6);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    background-color: rgba(25, 8, 8, 0.6);
+    box-shadow: 0 0 20px rgba(22, 5, 9, 0.7);
     border-radius: 17.5px;
 }
 
@@ -332,6 +329,7 @@ footer {
     display: flex;
     justify-content: center;
     margin: 3rem;
+    color: #f7f74a;
 }
 /* end of footer styling */
 
