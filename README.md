@@ -2,7 +2,7 @@
 
 ## OVERVIEW:
 
-I am a motivated Coding Bootcamp student learning skills to become successful in the real world. In this challenge, I will be applying my new HTML and CSS skills to refactor an existing web page. The refactoring will result in improved accessibility and will optimize the page for search engines. Also, these changes will not change the display of the web page; Only the underlying code.
+This challenge is, in my opinion, one of the most important, My portfolio will be used throughout the entire bootcamp. Every project I complete, will be added to my portfolio, so future employers are able to see how far i've come, in just six months. 
 
 ## User Story
 
@@ -42,7 +42,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## LIVE LINK:
 
-
+https://jonsno29.github.io/JTS_PORTFOLIO/
 
 ## INSTALLATION, USAGE & MOCK-UP:
 
@@ -66,16 +66,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 🎗 Screencastify for mock-up GIF
  
- ![portfolio9](https://user-images.githubusercontent.com/109987633/188531466-a733a1fd-4212-4da8-b084-10f425bb3288.gif)
-
+![newuofm](https://user-images.githubusercontent.com/109987633/189034618-760ed3d6-84f6-4daf-9918-85ace449a4fa.gif)
 
 ## CREDITS:
 
 
 
- 
-
-# LICENSE:
+ # LICENSE:
 
 MIT LICENSE
 
