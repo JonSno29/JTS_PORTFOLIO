@@ -54,7 +54,7 @@ body {
 
 /* banner styling */
 #banner {
-    background: linear-gradient(rgba(238, 220, 82, 0.4),var(--kellygreen)), url(../Assets/banner.jpeg);
+    background: linear-gradient(rgba(238, 220, 82, 0.4),var(--kellygreen)), url(../Assets/code.jpeg);
     background-size: cover;
     background-position: center;
     height: 90vh;
