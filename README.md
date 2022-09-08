@@ -72,7 +72,7 @@ https://jonsno29.github.io/JTS_PORTFOLIO/
 
 My fellow bootcampers at the U Of M, it's always fun collaborating with eachother.
 
-UofM-VIRT-FSF-PT-08-2022-U-LOLC-ENTG/02-Advanced-CSS/02-Challenge/Assets/02-advanced-css-homework-demo.gif
+![mockupex](https://user-images.githubusercontent.com/109987633/189046217-b2aa1a3d-f6d2-4721-8d22-ffa267e4f71b.gif)
 
 Inspired by this Mock-Up GIF
 
@@ -83,7 +83,7 @@ MIT LICENSE
 
 ## FEATURES:
 
-🎗 Uses a GIF to show features
+🎗 Uses a GIF to show features.
 
 🎗 Acessable design.
 
