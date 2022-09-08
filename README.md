@@ -2,7 +2,7 @@
 
 ## OVERVIEW:
 
-This challenge is, in my opinion, one of the most important, My portfolio will be used throughout the entire bootcamp. Every project I complete, will be added to my portfolio, so future employers are able to see how far i've come, in just six months. 
+This challenge is, in my opinion, one of the most important. My portfolio will be used throughout the entire bootcamp. Every project I complete, will be added to my portfolio, so future employers are able to see how far i've come and if i'm qualified to program for the company they represent. 
 
 ## User Story
 
@@ -46,9 +46,9 @@ https://jonsno29.github.io/JTS_PORTFOLIO/
 
 ## INSTALLATION, USAGE & MOCK-UP:
 
-🎗 Google Chrome
+🎗 Flexbox
 
-🎗 Chrome DevTools
+🎗 Media Queries
 
 🎗 Terminal
 
@@ -60,9 +60,9 @@ https://jonsno29.github.io/JTS_PORTFOLIO/
 
 🎗 Visual Studio (VS) Code 
 
-🎗 HTML
+🎗 HTML Semantic Elements
 
-🎗 CSS
+🎗 CSS VARIABLES
 
 🎗 Screencastify for mock-up GIF
  
@@ -70,15 +70,20 @@ https://jonsno29.github.io/JTS_PORTFOLIO/
 
 ## CREDITS:
 
+My fellow bootcampers at the U Of M, it's always fun collaborating with eachother.
+
+UofM-VIRT-FSF-PT-08-2022-U-LOLC-ENTG/02-Advanced-CSS/02-Challenge/Assets/02-advanced-css-homework-demo.gif
+
+Inspired by this Mock-Up GIF
 
 
- # LICENSE:
+# LICENSE:
 
 MIT LICENSE
 
 ## FEATURES:
 
-🎗 Uses, color, contrast and space.
+🎗 Uses a GIF to show features
 
 🎗 Acessable design.
 
@@ -98,5 +103,10 @@ Use the "scout rule" to help others.
 
 ## TESTS:
 
+🎗 Trial and error
 
+🎗 Research
 
+## CONTACT:
+
+Snoverjon@gmail.com
