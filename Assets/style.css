@@ -149,20 +149,21 @@ header nav ul li a:hover {
 .jon-bio p {
     line-height: 1.75;
     font-size: 1.15rem;
-    padding: 15px 6px;
+    padding: 10px 6px;
     color: rgb(44, 14, 14);
 }
 
 .jon-img {
     /* margin: 10px 25px; */
     margin: 10px 25px;
-    width: 30%;
-    height: 100%;
+    width: 25%;
+    height: 50%;
     min-width: 350px;
+    border-radius: 25px;
 }
 
 .jon-🤳  {
-    border-radius: 150px;
+    border-radius: 25px;
     width: 30%;
     height: 100px;
 }
@@ -247,10 +248,10 @@ header nav ul li a:hover {
     color: #fff;
     background: rgba(67, 23, 23, 0.65);
     margin-bottom: 15px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 20px;
 }
-/* end of portfolio styling */
+/* end of project styling */
 
 /* resume styling */
 #resume {
