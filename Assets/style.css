@@ -214,6 +214,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    width: 150px;
    
 }
 
