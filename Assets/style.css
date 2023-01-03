@@ -1,8 +1,8 @@
-/* GENERAL STYLES */
 :root {
-    --aqua: #dbe8e8;
-    --kellygreen:  #391113;
+    --aqua: #6a3c2f;
+    --kelly-green:  #391113;
     --border-color: #370d0d; 
+    background-color: #762929;
 }
 
 * {
@@ -11,11 +11,11 @@
     scroll-behavior: smooth;
 }
 
-body {
+.body {
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
     background: var(--kellygreen);
-    color: #e7b14f ;
+    color: #771111 ;
 }
 
 .intro {
@@ -23,7 +23,7 @@ body {
     max-width: 1000px;
     padding: 2vw 0;
     margin: 100px auto 5vw;
-    background: rgba(245, 228, 76, 0.5);
+    background: rgba(239, 185, 10, 0.5);
     border-radius: 17.5px;
     box-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
@@ -43,7 +43,7 @@ body {
 
 .resume-contact {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1100px;
     padding: 2vw 0;
     margin: 12vw auto 5vw;
     background: rgba(239, 216, 71, 0.5);
@@ -54,7 +54,7 @@ body {
 
 /* banner styling */
 #banner {
-    background: linear-gradient(rgba(238, 220, 82, 0.4),var(--kellygreen)), url(../Assets/code.jpeg);
+    background: linear-gradient(rgba(238, 220, 82, 0.4),var(kelly-green)), url(../Assets/code.jpeg);
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -189,52 +189,52 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
 }
 /* Main horiseon image, lines up with coming soon images */
 .prim-grid-img {
-    width: 54%;
-    height: auto;
+    width: 50%;
+    height: 50%;
     border-radius: 15px; 
 }
 
 .grid-img {
-    width: 325px; 
+    width: 315px; 
     height: 350px;
     border-radius: 15px;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .project-item {
     position: relative;
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
+   
 }
 
 .project-text {
-    position: absolute;
+    position: absolute ;
     top: 0;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
+    width: 30%;
+    height: 30%;
+   
 }
 
 .logo-wrapper img {
-    width: 85%;
+    width: 99%;
+    height: 99%;
 }
 
 .project-item a {
-    text-decoration:none;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
-.project-item :hover {
-    height: 108%;
-    width: 108%;
-}
+
+
 .project-text .subtitle p {
     transition: 1s;
     color: transparent;
@@ -247,9 +247,11 @@ header nav ul li a:hover {
     font-weight: 650;
     color: #fff;
     background: rgba(67, 23, 23, 0.65);
-    margin-bottom: 15px;
+    margin-bottom: 55px;
     padding: 7px;
     border-radius: 20px;
+    height: 50px;
+    width: 110px;
 }
 /* end of project styling */
 
@@ -393,7 +395,7 @@ footer {
 /* Main horiseon image in projects */
     .grid-img {
         width: 50%;
-        height: auto;
+        height: 50%;
         margin-bottom: 2vw;
     }
 
@@ -407,7 +409,7 @@ footer {
         font-size: 1rem;
         padding: 10px;
         background: rgba(0, 0, 0, 0.45);
-        width: 55%;
+        width: 40%;
         margin: 4rem;
     }
 
