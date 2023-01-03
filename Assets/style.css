@@ -402,6 +402,7 @@ footer {
 
     .project-text .subtitle a {
         text-decoration: none;
+        width: 20%;
     }
 
     .project-text .subtitle p {
@@ -410,7 +411,7 @@ footer {
         font-size: 1rem;
         padding: 10px;
         background: rgba(0, 0, 0, 0.45);
-        width: 40%;
+        width: 20%;
         margin: 4rem;
     }
 
