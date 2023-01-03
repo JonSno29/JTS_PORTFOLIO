@@ -2,17 +2,17 @@
 
 ## OVERVIEW:
 
-``
+```
 This challenge is, in my opinion, one of the most important. My portfolio will be used throughout the entire bootcamp.
 
 Every project I complete, will be added to my portfolio, so future employers are able to see how far i've come 
 
 and if i'm qualified to program for the company they represent. 
-``
+```
 
 ## User Story
 
-``
+```
 
 AS AN employer
 
@@ -49,7 +49,7 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 
 THEN I am presented with a responsive layout that adapts to my viewport
-``
+```
 
 ## LIVE LINK:
 
