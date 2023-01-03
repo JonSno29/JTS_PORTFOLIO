@@ -53,11 +53,11 @@
 /* end of general styling */
 
 /* banner styling */
-#banner {
-    background: linear-gradient(rgba(238, 220, 82, 0.4),var(kelly-green)), url(../Assets/code.jpeg);
+  #banner {
+    background: linear-gradient(rgba(255,255,255,0.40),var(--yellow)), url(../images/banner.jpeg);
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 .logo {
