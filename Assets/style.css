@@ -395,7 +395,7 @@ footer {
     }
 /* Main horiseon image in projects */
     .grid-img {
-        width: 50%;
+        width: 51%;
         height: 50%;
         margin-bottom: 2vw;
     }
@@ -416,7 +416,7 @@ footer {
     }
 
     .project-text .project-1-2 p {
-        margin-left: 19vw;
+       text-align: center;
     }
 
     .logo-wrapper {
