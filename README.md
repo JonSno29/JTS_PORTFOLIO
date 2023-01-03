@@ -85,16 +85,6 @@ My fellow bootcampers at the U Of M, it's always fun collaborating with eachothe
 
 ![mockupex](https://user-images.githubusercontent.com/109987633/189046217-b2aa1a3d-f6d2-4721-8d22-ffa267e4f71b.gif)
 
-Inspired by this Mock-Up GIF
-
-nkirti28, kirtishelar_Portfolio,(2022) Github Repository,
-
-https://github.com/nkirti28/KirtiShelar_Portfolio.git
-
-Ysaad01, Portfolio,(2021), Github Repository,
-
-https://github.com/ysaad01/portfolio.git
-
 # LICENSE:
 
 MIT LICENSE
