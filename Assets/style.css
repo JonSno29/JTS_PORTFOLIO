@@ -219,11 +219,14 @@ header nav ul li a:hover {
 }
 
 .project-text {
-    position: absolute ;
+    position: absolute;
     top: 0;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 30%;
-    height: 30%;
+    align-items: center;
+    height: 100%;
+    text-align: center;
    
 }
 
