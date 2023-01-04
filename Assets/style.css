@@ -53,12 +53,11 @@ body {
 /* end of general styling */
 
 /* banner styling */
-  .banner {
-    background: linear-gradient(rgba(255,255,255,0.40),var(--kelly-green)), url(../Assets/code.jpeg);
+  #banner {
+    background: linear-gradient(rgba(255,255,255,0.40),var(--kelly-green)), url(../code.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-color: maroon;
 }
 
 .logo {
